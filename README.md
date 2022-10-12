@@ -3,6 +3,7 @@ Astu React Native Application
 
 Testing User :
 username : Astu
+\
 passowrd : astu
 
 Sample Data Pasien
