@@ -23,8 +23,8 @@ import DataContext from './stores/Provider';
 import { useNetInfo } from '@react-native-community/netinfo';
 
 // Push Notification
-import PushNotification from 'react-native-push-notification';
-import { PNConfig } from './pushNotification.config';
+// import PushNotification from 'react-native-push-notification';
+// import { PNConfig } from './pushNotification.config';
 
 // Translation
 import './translations/i18n';
@@ -58,7 +58,7 @@ const App: React.FC = () => {
 
 	if (!loading && !result) {
 		// Must be outside of any component LifeCycle
-		PushNotification.configure(PNConfig);
+		// PushNotification.configure(PNConfig);
 	}
 
 	const screenOptionStyle = {

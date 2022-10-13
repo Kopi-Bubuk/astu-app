@@ -104,7 +104,7 @@ export const Transaction: React.FC<{
 				url={item.link}
 				image={item.image}
 				title={item.judul}
-				date={item.tgl.substring(0, 10)}
+				date={item.tgl ? item.tgl.substring(0, 10) : ''}
 				source={item.nama}
 				navigation={navigation}
 			/>
